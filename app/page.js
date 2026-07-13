@@ -94,7 +94,7 @@ export default function HomePage() {
         ) : filtered.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '60px 20px', color: '#6b6b6b' }}>
             <div className="cairo" style={{ fontWeight: 700, marginBottom: 6, color: '#111' }}>لا توجد منتجات بعد</div>
-            <Link href="/sell" className="ts-btn" style={{ display: 'inline-block', marginTop: 12 }}>سوي متجرك الآن</Link>
+            <Link href="/sell" className="ts-btn" style={{ display: 'inline-block', marginTop: '12px' }}>سوي متجرك الآن</Link>
           </div>
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(190px, 1fr))', gap: 16 }}>
