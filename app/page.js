@@ -65,7 +65,7 @@ export default function HomePage() {
         <div style={{ background: '#111', color: '#fff', borderRadius: 18, padding: '40px 34px', marginBottom: 24 }}>
           <div className="cairo" style={{ fontSize: '1.8rem', fontWeight: 800, marginBottom: 10 }}>كل المتاجر، بمكان وحد</div>
           <p style={{ color: '#ccc', maxWidth: 480, lineHeight: 1.8 }}>
-            تصفح منتجات من متاجر حقيقية بالعراق — الآن متصلة بقاعدة بيانات حقيقية.
+           تصفح منتجات من متاجر حقيقية بالعراق .
           </p>
         </div>
 
@@ -94,7 +94,6 @@ export default function HomePage() {
         ) : filtered.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '60px 20px', color: '#6b6b6b' }}>
             <div className="cairo" style={{ fontWeight: 700, marginBottom: 6, color: '#111' }}>لا توجد منتجات بعد</div>
-            <Link href="/sell" className="ts-btn" style={{ display: 'inline-block', marginTop: '12px' }}>سوي متجرك الآن</Link>
           </div>
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(190px, 1fr))', gap: 16 }}>
